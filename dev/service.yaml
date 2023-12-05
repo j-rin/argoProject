@@ -5,9 +5,10 @@ metadata:
 spec:
   selector:
     app: myapp
+  type: LoadBalancer
   ports:
   - port: 8080
     protocol: TCP
     targetPort: 8080
-  type: NodePort
+  
   
